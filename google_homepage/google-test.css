@@ -16,12 +16,14 @@
 }
 
 .navbar-search {
+    display: flex;
+    flex-direction: row;
     order: 2;
     border: 1px solid black;
     border-radius: 24px;
     box-shadow: 0 2px 5px 1px rgba(64,60,67,.16);
-    width: 15em;
-    height: 2em;
+    width: 43em;
+    height: 3em;
 }
 
 .navbar-search:hover {
@@ -29,9 +31,30 @@
 }
 
 .navbar-input {
-
+    display: flex;
+    flex-direction: row;
+    width: 40em;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navbar-account {
     justify-content: flex-end;
+}
+
+#clear-btn {
+    width: 50px;
+    height: auto;
+}
+
+#google-logo {
+    width: 100px;
+    height: auto;
+}
+
+input {
+    border-color: transparent;
+    border-radius: 24px;
+    width: 39em;
+    height: 2.9em;
 }
