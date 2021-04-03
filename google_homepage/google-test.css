@@ -142,11 +142,9 @@ input:focus {
 
 }
 
-hr {
-    width: 100vw;
-    margin-top: 0;
-    border-top: 1px solid #80868b;
-    opacity: 0.5;
+header {
+    position: fixed;
+    border-bottom: 1px solid #80868b;
 }
 
 #nav-settings {
