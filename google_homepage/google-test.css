@@ -9,7 +9,7 @@
     padding-top: 2em;
     align-items: center;
     justify-content: flex-start;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
 }
 
 .navbar-logo {
@@ -51,6 +51,12 @@
     align-items: center;
     justify-content: flex-start;
     flex-wrap: wrap-reverse;
+    color: #80868b;
+    margin-bottom: 0;
+}
+
+.tool {
+    transition: 0.3s;
 }
 
 .tool {
@@ -59,7 +65,16 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: nowrap;
-    padding-right: 0.5em;
+    padding-right: 1em;
+    margin-bottom: 0;
+}
+
+#toolbar-icon {
+    padding-right: 5px;
+}
+
+.tool:hover {
+    color: black;
 }
 
 #clear-btn {
@@ -121,4 +136,19 @@ input {
 
 input:focus {
     outline: none;
+}
+
+#header-border {
+
+}
+
+hr {
+    width: 100vw;
+    margin-top: 0;
+    border-top: 1px solid #80868b;
+    opacity: 0.5;
+}
+
+#nav-settings {
+    margin-left: 4em;
 }
