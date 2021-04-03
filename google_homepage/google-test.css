@@ -144,9 +144,41 @@ input:focus {
 
 header {
     position: fixed;
+    background-color: white;
+    top: 0;
     border-bottom: 1px solid #80868b;
 }
 
 #nav-settings {
     margin-left: 4em;
+}
+
+.result-info {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10vw;
+    padding-top: 9em;
+    color: gray;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    width: 41em;
+    flex-wrap: wrap;
+    margin-left: 10vw;
+    margin-top: 1em;
+}
+
+#results-url {
+    margin: 0;
+}
+
+#link-header {
+    margin: 0;
+    color: #2216ae;
+}
+
+#results-preview {
+    margin: 0;
 }
